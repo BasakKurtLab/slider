@@ -64,3 +64,24 @@ body {
 #next {
   right: 40px;
 }
+@media screen and (max-width: 930px) {
+  .ml3 {
+    font-weight: 500;
+    font-size: 2em;
+    color: white;
+    z-index: 500;
+  }
+  #slider button {
+    width: 40px;
+    height: 40px;
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ml3 {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: white;
+    z-index: 500;
+  }
+}
